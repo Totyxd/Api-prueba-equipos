@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiPruebaHttpEquipos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b2c8e6528d87f3544addb9cbdcd5c4d956bcc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiPruebaHttpEquipos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiPruebaHttpEquipos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

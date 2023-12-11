@@ -437,19 +437,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tobias\\.nuget\\packages\\": {}
+    "C:\\Users\\TallerProgNot\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
+      "projectUniqueName": "C:\\Users\\TallerProgNot\\GIT\\Api-prueba-equipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
       "projectName": "ApiPruebaHttpEquipos",
-      "projectPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
-      "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos\\obj\\",
+      "projectPath": "C:\\Users\\TallerProgNot\\GIT\\Api-prueba-equipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
+      "packagesPath": "C:\\Users\\TallerProgNot\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TallerProgNot\\GIT\\Api-prueba-equipos\\ApiPruebaHttpEquipos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TallerProgNot\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -499,7 +499,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
