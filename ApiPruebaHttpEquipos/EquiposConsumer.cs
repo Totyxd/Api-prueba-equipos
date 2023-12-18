@@ -1,4 +1,5 @@
 ﻿namespace ApiPruebaHttpEquipos
+
 {
     public class EquiposConsumer
     {

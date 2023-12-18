@@ -9,14 +9,15 @@ namespace ApiPruebaHttpEquipos.Controllers
         [HttpGet]
         public async Task<IActionResult> GetEquiposPrueba()
         {
-            var equipos = await EquiposConsumer.GetEquiposData("http://gemsa.ddns.net:8035/api/Equipo/TraerEquipos");
-            return Ok(equipos);
-        }
-
-        //Controlador para /api/Equipo/{id}
-        //Controlador para /api/DatoEquipo/traerdiscos
-        //Contolador para /api/DatoEquipo/traermadre
-        //Controlador para /api/DatoEquipo/traeroffice
-        //Controlador para /api/DatoEquipo/traerprocesadores
-    };
+            try
+            {
+                var equipos = await EquiposConsumer.GetEquiposData(url:"http://gemsa.ddns.net:8035/api/Equipo/");
+                return Ok(equipos);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, $"Error del servidor: {ex.Message}");
+            }
+        }     
+    }  
 }
