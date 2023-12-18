@@ -3,7 +3,7 @@
 namespace ApiPruebaHttpEquipos.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
+    [Route("{controller}")]
     public class TraerDiscoController : ControllerBase
     {
         [HttpGet]
@@ -20,9 +20,4 @@ namespace ApiPruebaHttpEquipos.Controllers
             }
         }
     }
-
-
-
-
-
 }

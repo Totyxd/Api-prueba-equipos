@@ -18,8 +18,6 @@ namespace ApiPruebaHttpEquipos.Controllers
             {
                 return StatusCode(500, $"Error del servidor: {ex.Message}");
             }
-        }
-
-         
-    };
+        }     
+    }  
 }

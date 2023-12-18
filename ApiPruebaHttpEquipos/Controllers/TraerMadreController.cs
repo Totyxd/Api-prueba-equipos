@@ -1,10 +1,9 @@
-﻿using ApiPruebaHttpEquipos;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace ApiPruebaHttpEquipos.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
+    [Route("{controller}")]
     public class TraerMadreControllers : ControllerBase
     {
         [HttpGet]

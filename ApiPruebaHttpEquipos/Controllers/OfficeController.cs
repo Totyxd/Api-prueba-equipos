@@ -3,7 +3,7 @@
 namespace ApiPruebaHttpEquipos.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
+    [Route("{controller}")]
     public class OfficeController : ControllerBase
     {
         [HttpGet]

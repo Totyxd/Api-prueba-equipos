@@ -4,15 +4,15 @@ namespace ApiPruebaHttpEquipos.Controllers
 {
     [ApiController]
     [Route("{controller}")]
-    public class ProcesadoresController : ControllerBase
+    public class EquiposIdControllers : ControllerBase
     {
-        [HttpGet]
-        public async Task<IActionResult> GetEquiposProcesadores()
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetEquiposId(int id)
         {
             try
             {
-                var procesadores = await EquiposConsumer.GetEquiposData("http://gemsa.ddns.net:8035/api/DatoEquipo/traerprocesadores");
-                return Ok(procesadores);
+                var identificador = await EquiposConsumer.GetEquiposData($"http://gemsa.ddns.net:8035/api/Equipo/9{id}");
+                return Ok(identificador);
             }
             catch (Exception ex)
             {
