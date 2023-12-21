@@ -1,8 +1,12 @@
+using AccesoDatos.Repositorios;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddSingleton<DbContext>();
 
 var app = builder.Build();
 
