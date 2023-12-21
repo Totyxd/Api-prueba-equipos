@@ -1,0 +1,15 @@
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\bin\Debug\net6.0\Dominio.deps.json
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\bin\Debug\net6.0\Dominio.dll
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\bin\Debug\net6.0\Dominio.pdb
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.csproj.CopyComplete
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.dll
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\Dominio.pdb
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\Dominio\obj\Debug\net6.0\ref\Dominio.dll

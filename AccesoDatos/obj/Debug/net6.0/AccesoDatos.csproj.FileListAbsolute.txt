@@ -1,0 +1,12 @@
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Tobias\source\repos\ApiPruebaHttpEquipos\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
