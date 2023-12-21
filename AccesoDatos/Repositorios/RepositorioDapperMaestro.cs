@@ -8,14 +8,9 @@ using System.Threading.Tasks;
 
 namespace AccesoDatos.Repositorios
 {
-    public class RepositorioDapperMaestro
+    public abstract class RepositorioDapperMaestro
     {
-        private readonly DbContext _context;
-
-        public RepositorioDapperMaestro(DbContext context)
-        {
-            _context = context;
-        }
+        protected DbContext _context;
 
         protected async Task<int> ExecuteNonQueryAsync<T>(string TxtSql, T objeto)
         {

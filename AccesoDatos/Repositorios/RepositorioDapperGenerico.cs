@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using AccesoDatos.Contratos;
@@ -14,11 +15,9 @@ namespace AccesoDatos.Repositorios
         protected string _delete;
         protected string _selectAll;
         protected string _selectId;
-
-
+                
         public Task<int> AgregarAsync(TEntity entity)
         {
-
             return ExecuteNonQueryAsync(_insert, entity);
         }
 
@@ -36,15 +35,15 @@ namespace AccesoDatos.Repositorios
             return resp;
         }
 
-        public async Task<TEntity> TraerIdAsync(int id)
+        public Task<TEntity> TraerIdAsync(int id)
         {
 
-            return await ExecuteReaderIdAsync<TEntity>(_selectId, id);
+            return ExecuteReaderIdAsync<TEntity>(_selectId, id);
         }
 
-        public async Task<List<TEntity>> TraerTodosAsync()
+        public Task<List<TEntity>> TraerTodosAsync()
         {
-            return await ExecuteReaderAsync<TEntity>(_selectAll);
+            return ExecuteReaderAsync<TEntity>(_selectAll);
         }
     }
 }

@@ -1,4 +1,5 @@
 using AccesoDatos.Repositorios;
+using AccesoDatos.Repositorios.Prueba;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<DbContext>();
+builder.Services.AddTransient<RepositorioSucursales>();
 
 var app = builder.Build();
 
