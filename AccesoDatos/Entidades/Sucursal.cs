@@ -12,4 +12,18 @@ namespace AccesoDatos.Entidades
         public string nombre { get; set; }
 
     }
+    public class Usuario
+    {
+       
+        public int Id { get; set; }
+        public string? Nombre_de_usuario { get; set; }
+
+        public string? Contraseña { get; set; }
+
+        public int Edad { get; set; }
+
+        public bool Sexo { get; set; }
+
+    }
 }
+

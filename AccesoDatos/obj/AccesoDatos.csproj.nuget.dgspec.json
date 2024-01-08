@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj": {}
+    "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\sistema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sistema\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1262,19 +1262,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tobias\\.nuget\\packages\\": {}
+    "C:\\Users\\sistema\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
       "projectName": "ApiPruebaHttpEquipos",
-      "projectPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
-      "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos\\obj\\",
+      "projectPath": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\ApiPruebaHttpEquipos\\ApiPruebaHttpEquipos.csproj",
+      "packagesPath": "C:\\Users\\sistema\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\ApiPruebaHttpEquipos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sistema\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1288,11 +1288,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj": {
-              "projectPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj"
+            "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj": {
+              "projectPath": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj"
             },
-            "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\Dominio\\Dominio.csproj"
+            "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\Public\\git-api-prueba\\Api-prueba-equipos\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -1331,7 +1331,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
