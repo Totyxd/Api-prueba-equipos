@@ -1,0 +1,29 @@
+[33mcommit 0f9014634eced836f64960b1d5bf26b854cdcf79[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: JerooQuintana <jero.quintana18@gmail.com>
+Date:   Mon Jan 8 16:29:11 2024 -0300
+
+    agregar controladores
+
+[33mcommit 49c5fbc3e9d67688e20afacf4062a08f4b219dc5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Totyxd <tobiaslevy1409@gmail.com>
+Date:   Thu Dec 21 13:07:20 2023 -0300
+
+    Finalizada estructura inicial por capas
+
+[33mcommit b14ff6148aa543f09a70985e9f69b978fc907902[m
+Author: Totyxd <tobiaslevy1409@gmail.com>
+Date:   Thu Dec 21 09:41:54 2023 -0300
+
+    Añadidos reps genericos
+
+[33mcommit 42561ca2627defcffc161fa0ec8033a1f736bf47[m
+Author: Totyxd <tobiaslevy1409@gmail.com>
+Date:   Thu Dec 21 09:07:31 2023 -0300
+
+    Estructura inicial PrubasHttp por capas
+
+[33mcommit 93b2c8e6528d87f3544addb9cbdcd5c4d956bcc9[m
+Author: Totyxd <tobiaslevy1409@gmail.com>
+Date:   Mon Dec 4 17:09:50 2023 -0300
+
+    Initial commit
