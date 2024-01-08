@@ -1,22 +1,23 @@
+using ApiPruebaHttpEquipos;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiPruebaHttpEquipos.Controllers
-{
-    [ApiController]
-    [Route("[controller]")]
-    public class EquiposController : ControllerBase
-    {
-        [HttpGet]
-        public async Task<IActionResult> GetEquiposPrueba()
-        {
-            var equipos = await EquiposConsumer.GetEquiposData("http://gemsa.ddns.net:8035/api/Equipo/TraerEquipos");
-            return Ok(equipos);
-        }
+[ApiController]
+[Route("[Controller]")]
 
-        //Controlador para /api/Equipo/{id}
-        //Controlador para /api/DatoEquipo/traerdiscos
-        //Contolador para /api/DatoEquipo/traermadre
-        //Controlador para /api/DatoEquipo/traeroffice
-        //Controlador para /api/DatoEquipo/traerprocesadores
-    };
+public class EquipoController : ControllerBase
+{
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetEquiposId(int id)
+    {
+        try
+        {
+            var identificador = await EquiposConsumer.GetEquiposData($"http://gemsa.ddns.net:8035/api/Equipo/{id}");
+            return Ok(identificador);
+        }
+        catch (Exception ex)
+        {
+            // Manejo de errores
+            return StatusCode(500, $"Error del servidor: {ex.Message}");
+        }
+    }
 }

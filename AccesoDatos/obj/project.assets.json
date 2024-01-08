@@ -645,19 +645,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tobias\\.nuget\\packages\\": {}
+    "C:\\Users\\Sistemas-1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj",
+      "projectUniqueName": "C:\\Users\\Sistemas-1\\GIt\\ApiPrueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj",
       "projectName": "AccesoDatos",
-      "projectPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\AccesoDatos.csproj",
-      "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tobias\\source\\repos\\ApiPruebaHttpEquipos\\AccesoDatos\\obj\\",
+      "projectPath": "C:\\Users\\Sistemas-1\\GIt\\ApiPrueba\\Api-prueba-equipos\\AccesoDatos\\AccesoDatos.csproj",
+      "packagesPath": "C:\\Users\\Sistemas-1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sistemas-1\\GIt\\ApiPrueba\\Api-prueba-equipos\\AccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sistemas-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -712,7 +712,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
