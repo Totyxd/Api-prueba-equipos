@@ -16,26 +16,25 @@
           "ApiPruebaHttpEquipos.dll": {}
         }
       },
-      "AutoMapper/12.0.1": {
+      "AutoMapper/13.0.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.7.0"
+          "Microsoft.Extensions.Options": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.1/AutoMapper.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.1.0"
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
           }
         }
       },
-      "Dapper/2.1.24": {
+      "Dapper/2.1.28": {
         "runtime": {
           "lib/net5.0/Dapper.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.1.24.50284"
+            "fileVersion": "2.1.28.55233"
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
         "dependencies": {
@@ -46,6 +45,13 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
           }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
       "Microsoft.Extensions.Primitives/8.0.0": {
@@ -154,7 +160,7 @@
           }
         }
       },
-      "System.Data.SqlClient/4.8.5": {
+      "System.Data.SqlClient/4.8.6": {
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0",
@@ -162,22 +168,22 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "assemblyVersion": "4.6.1.5",
-            "fileVersion": "4.700.22.51706"
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
           }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
             "rid": "unix",
             "assetType": "runtime",
-            "assemblyVersion": "4.6.1.5",
-            "fileVersion": "4.700.22.51706"
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
           },
           "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "4.6.1.5",
-            "fileVersion": "4.700.22.51706"
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
           }
         }
       },
@@ -191,9 +197,9 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "AccesoDatos/1.0.0": {
         "dependencies": {
-          "Dapper": "2.1.24",
+          "Dapper": "2.1.28",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "System.Data.SqlClient": "4.8.5"
+          "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
           "AccesoDatos.dll": {}
@@ -202,7 +208,7 @@
       "Dominio/1.0.0": {
         "dependencies": {
           "AccesoDatos": "1.0.0",
-          "AutoMapper": "12.0.1",
+          "AutoMapper": "13.0.1",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -217,26 +223,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AutoMapper/12.0.1": {
+    "AutoMapper/13.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
-      "path": "automapper/12.0.1",
-      "hashPath": "automapper.12.0.1.nupkg.sha512"
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
-    "Dapper/2.1.24": {
+    "Dapper/2.1.28": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/2t2vsdJyZRsk13AsWigZpsuFvEwK+o3v862cEULXoww905gyKhJFSuwmZI/4Ui9COX9ZCFCI09UHyH4wVYl3A==",
-      "path": "dapper/2.1.24",
-      "hashPath": "dapper.2.1.24.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+      "sha512": "sha512-ha49pzOEDmCPkMxwfPSR/wxa/6RD3r42TESIgpzpi7FXq/gNVUuJVEO+wtUzntNRhtmq3BKCl0s0aAlSZLkBUA==",
+      "path": "dapper/2.1.28",
+      "hashPath": "dapper.2.1.28.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -251,6 +250,20 @@
       "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
       "path": "microsoft.extensions.configuration.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/8.0.0": {
       "type": "package",
@@ -343,12 +356,12 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
     },
-    "System.Data.SqlClient/4.8.5": {
+    "System.Data.SqlClient/4.8.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
-      "path": "system.data.sqlclient/4.8.5",
-      "hashPath": "system.data.sqlclient.4.8.5.nupkg.sha512"
+      "sha512": "sha512-2Ij/LCaTQRyAi5lAv7UUTV9R2FobC8xN9mE0fXBZohum/xLl8IZVmE98Rq5ugQHjCgTBRKqpXRb4ORulRdA6Ig==",
+      "path": "system.data.sqlclient/4.8.6",
+      "hashPath": "system.data.sqlclient.4.8.6.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
